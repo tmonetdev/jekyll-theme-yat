@@ -96,7 +96,7 @@ html {
   margin-right: 50px;
 
   .site-brand-inner {
-    @include relative-font-size(1.125);
+    @include relative-font-size(1.525);
     font-weight: $base-font-weight;
     letter-spacing: -1px;
     transition: 0.1s filter color;
@@ -114,7 +114,7 @@ html {
 }
 
 .site-nav {
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.525);
   line-height: $header-height;
   position: absolute;
   right: 0;
@@ -132,6 +132,7 @@ html {
     line-height: $base-line-height;
     color: $header-text-color;
     transition: 0.1s ease-in-out;
+    margin-right : 25px;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
