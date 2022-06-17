@@ -1,0 +1,1 @@
+Sitemap: https://tmonetdev.github.io/jekyll-theme-yat/sitemap.xml
